@@ -1,5 +1,4 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import "tailwindcss"
 
 @theme {
   --color-bg: #efe6d4;
