@@ -1,0 +1,45 @@
+export function LabMark({ className = "size-10" }: { className?: string }) {
+  return (
+    <svg viewBox="0 0 32 32" className={className} aria-hidden="true">
+      <circle
+        cx="16"
+        cy="16"
+        r="13.2"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="0.7"
+        className="opacity-80"
+      />
+      <g
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="0.85"
+        strokeLinecap="round"
+        className="opacity-70"
+      >
+        <path d="M8 7c3 2.2-3 4 0 6.4s-3 4 0 6.4 3 4 0 6.4-3 4 0 6.4" />
+        <path d="M12 7c-3 2.2 3 4 0 6.4s3 4 0 6.4-3 4 0 6.4 3 4 0 6.4" />
+        <path
+          strokeWidth="0.55"
+          d="M8.6 9.2h2.8M7.8 12.4h4.4M8.6 15.6h2.8M7.8 18.8h4.4M8.6 22h2.8"
+        />
+      </g>
+      <g stroke="currentColor" strokeWidth="0.45" fill="none" className="opacity-80">
+        <path d="M15 9.2c4.4-1.4 10 1 11.2 5.2 1.2 4.2-1.2 8-4.6 10.2-2.4 1.6-5.2 2.6-7.8 2.2-3.4-.4-6-3.4-6.4-6.8-.4-3.2 1.8-6.4 5-8.2" />
+        <path d="M17.4 11.2c3 .6 5.4 3 5.8 5.8M15.6 14c3.4 1 5.6 3.6 4.8 6.4M20.2 14.8c.6 3.2-1.2 5.8-3.8 7" />
+      </g>
+      <g fill="currentColor">
+        <circle cx="16.2" cy="10.2" r=".7" />
+        <circle cx="20.4" cy="11.4" r=".6" />
+        <circle cx="24.2" cy="14.2" r=".7" />
+        <circle cx="24.6" cy="18.2" r=".55" />
+        <circle cx="21.6" cy="21.6" r=".65" />
+        <circle cx="17.4" cy="23.2" r=".55" />
+        <circle cx="14.2" cy="20.8" r=".6" />
+        <circle cx="13.4" cy="16.6" r=".55" />
+        <circle cx="18.2" cy="15.6" r=".75" />
+        <circle cx="20.8" cy="18.2" r=".6" />
+      </g>
+    </svg>
+  );
+}

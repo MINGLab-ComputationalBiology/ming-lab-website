@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" role="img" aria-label="MING lab">
+  <title>MING lab</title>
+  <rect width="520" height="160" fill="#0d0c0a"/>
+  <g transform="translate(16,16)">
+    <circle cx="64" cy="64" r="62" fill="none" stroke="#e8dfcf" stroke-width="1.5"/>
+    <!-- DNA helix -->
+    <g fill="none" stroke="#7d9a8c" stroke-width="1.6" stroke-linecap="round">
+      <path d="M28 18c10 8-10 14 0 22s-10 14 0 22 10 14 0 22-10 14 0 22"/>
+      <path d="M40 18c-10 8 10 14 0 22s10 14 0 22-10 14 0 22 10 14 0 22"/>
+      <path stroke-width="1.1" d="M30 24h8M27 34h14M30 44h8M27 54h14M30 64h8M27 74h14M30 84h8M27 94h14M30 104h8"/>
+    </g>
+    <!-- protein coexpression network as brain -->
+    <g stroke="#e8dfcf" stroke-width="0.9" fill="none">
+      <path d="M58 28C78 22 104 30 110 50c6 18-4 34-18 44-10 8-22 14-34 12-16-2-28-16-30-32-2-14 8-28 22-36 4-3 8-8 8-10z"/>
+      <path d="M70 36c12 2 22 12 24 24M62 48c16 4 26 16 22 30M54 58c10 8 22 10 32 6M78 52c2 14-6 26-18 32M90 46c8 10 6 24-2 34"/>
+    </g>
+    <g fill="#e8dfcf">
+      <circle cx="62" cy="32" r="2.2"/>
+      <circle cx="78" cy="30" r="1.8"/>
+      <circle cx="94" cy="38" r="2"/>
+      <circle cx="106" cy="50" r="2.2"/>
+      <circle cx="108" cy="66" r="1.7"/>
+      <circle cx="98" cy="80" r="2"/>
+      <circle cx="84" cy="90" r="2.1"/>
+      <circle cx="68" cy="94" r="1.8"/>
+      <circle cx="54" cy="86" r="2"/>
+      <circle cx="48" cy="70" r="1.7"/>
+      <circle cx="52" cy="54" r="2"/>
+      <circle cx="70" cy="50" r="2.4"/>
+      <circle cx="84" cy="58" r="2.1"/>
+      <circle cx="88" cy="72" r="1.9"/>
+      <circle cx="72" cy="74" r="2"/>
+    </g>
+  </g>
+  <text x="168" y="88" fill="#f3ead8" font-family="Georgia, 'Times New Roman', serif" font-size="64" font-style="italic" letter-spacing="4">MING</text>
+  <text x="172" y="122" fill="#b4aa98" font-family="system-ui, sans-serif" font-size="16" letter-spacing="10">LAB</text>
+</svg>
